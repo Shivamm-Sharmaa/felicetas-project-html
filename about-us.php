@@ -1,3 +1,3 @@
 <?php include('header.php');?>
-sjfnaskjndkj
+Hi I'm About Us page
 <?php include('footer.php');?>
