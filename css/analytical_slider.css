@@ -1,0 +1,78 @@
+
+
+.title{
+  color: #F27417;
+  font-size: 30px;
+  margin-bottom:40px;
+  margin-top: 0;
+}
+
+.analytical_card {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;  
+  text-align: left;
+}
+
+.analytical_card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.analytical_card .overlay {
+    position: absolute;
+    bottom: 40px;
+    left: 30px;
+    right: 30px;
+}
+
+
+
+.card_inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(21, 29, 52, 0.9);
+    color: white;
+    padding: 16px 20px;
+    border-radius: 15px;
+}
+
+.card-text h4 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.3;
+    color: #fff;
+}
+
+.card-icon {
+    background-color: #F27417;
+    box-shadow: -2px -2px 2px 0px rgba(0, 0, 0, 0.50) inset;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+}
+
+/*.analytical_bg{
+    background: url(../images/analytical_bg.png), linear-gradient(to bottom, #151D34 2%, #151D34 100%);
+    padding: 90px 0;
+    background-repeat: no-repeat;
+}*/
+
+.card_inner a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    gap: 10px;
+}
+
+.card-text h4:hover{color: #F27417;}
+.card-text { width: 75%;}
