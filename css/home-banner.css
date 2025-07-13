@@ -1,0 +1,57 @@
+.home_banner {
+     background:url("../images/cyber-security.png"),linear-gradient(to bottom, #151D34 2%, #151D34 100%);
+    padding: 90px 0;
+    background-repeat: no-repeat;
+}
+
+.learn_more {
+    background: #fff;
+    color: #354B9C;
+}
+
+.banner_content h1 {
+    font-size: 42px;
+    color: #fff;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.banner_content p {
+    font-size: 18px;
+    color: #C7C9FF;
+    line-height: 26px;
+    margin: 0;
+}
+
+.button_section {
+    margin: 30px 0;
+    display: flex;
+    gap: 20px;
+}
+
+.highlight {
+    background: linear-gradient(to right, #EE7D41 40%, #884725 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.video-box {
+  position: relative;
+  border-radius: 30px;
+  overflow: hidden;
+}
+.rating_icn i {
+    color: #F19617;
+    margin: 0 1px;
+    font-size: 13px;
+}
+.banner_review {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.banner_review p.rating_icn_text {
+    font-size: 16px;
+    font-family: "Nobile", sans-serif;
+    font-weight: 500;
+}

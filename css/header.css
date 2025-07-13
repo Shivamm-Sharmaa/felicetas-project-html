@@ -1,0 +1,234 @@
+.header-section {
+    background-color: #151D34;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+}
+
+.header_top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px 0px;
+    color: #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.logo img {   
+    vertical-align: middle;
+}
+.logo {
+    padding: 10px 0;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background: rgba(83, 125, 255, 0.20);
+    border: 2px solid #336BF8;
+    border-radius: 30px;
+    padding:5px;
+    width: 410px;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.search-bar .fa-search {  
+    background: rgba(51, 107, 248, 0.30);
+    padding: 7px;
+    border-radius: 50%;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.search-bar input {
+    width: 100%;
+    border: none;
+    border-radius: 25px;
+    background: transparent;
+    color: #fff;
+    outline: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.search-bar input::placeholder {
+  color: #94a3b8;
+}
+
+.header_buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.button_section .membership-btn{
+  border-radius: 100px;
+  background: linear-gradient(90deg, #D3521A -6.65%, #D58347 27.1%, #C75220 47.58%, #D37C3C 70.48%, #B4401D 105.42%);
+  box-shadow: -2px -2px 2px 0px rgba(0, 0, 0, 0.50) inset;  
+}
+
+.header-section .button_prime{padding: 12px 20px;}
+
+.button_prime {
+    padding: 17px 28px;
+    border-radius:100px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    background: #F27417;
+    border: none;
+    display: inline-block;
+    box-shadow: -2px -2px 2px 0px rgba(0, 0, 0, 0.50) inset;
+}
+
+.header_buttons .membership-btn{ 
+    border-radius: 100px;
+    background: linear-gradient(90deg, #D3521A -6.65%, #D58347 27.1%, #C75220 47.58%, #D37C3C 70.48%, #B4401D 105.42%);
+    box-shadow: -2px -2px 2px 0px rgba(0, 0, 0, 0.50) inset;
+}
+
+.header_buttons .membership-btn:hover{background: #16a34a;}
+
+.header_buttons .contact {
+  background: #16a34a;
+}
+
+.membership-btn:hover {
+  
+  background:#16a34a;
+}
+
+.button_prime:hover{background:#16a34a; color: #fff;}
+
+.membership-btn i {
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+
+.header_buttons .quote {
+  background: #16a34a;
+}
+
+.header_buttons .quote:hover{background:#F27417;}
+
+ .membership-btn {     
+      align-items: center;     
+      color: #ffffff;          
+      border: none;
+      border-radius: 9999px;      
+      cursor: pointer;
+      text-decoration: none;
+      transition: transform 0.2s ease;
+    }
+
+/* Navbar styles */
+.navbar { 
+  display: flex;
+  justify-content: center;
+  
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar li {
+  position: relative;
+}
+
+.navbar ul.navbar_list > li:first-child > a {
+    padding-left: 0;
+}
+
+.navbar > ul > li:last-child a::after {
+  display: none;
+}
+
+.navbar > ul > li:last-child a{padding-right:0;}
+
+.navbar ul a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    padding:20px 25px;
+    display:block;
+    position: relative;
+    font-size: 16px;
+}
+
+.navbar ul ul li a {
+    padding: 15px;
+    font-size: 14px;
+}
+
+/* Submenu */
+.navbar ul ul {
+  display: none;
+  position: absolute;
+  background-color: #1e293b;
+  top:59px;
+  left: 0;
+  min-width: 200px; 
+  z-index: 1000;
+}
+
+.navbar ul ul li {
+  width: 100%;
+}
+
+.navbar li:hover > ul {
+  display: block;
+}
+
+.navbar ul ul a:hover {
+  background-color: #334155;
+}
+
+.navbar a::after {
+    content: "\f107 ";
+    font-family: 'FontAwesome';
+    position: absolute;
+    right: 3px;
+    top:24px;
+    font-size: 11px;
+}
+
+.navbar ul ul a::after {
+  content: "";
+}
+
+.button_prime i {
+    transform: rotate(-130deg);
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+header input[type="text"]:focus {
+  color: #fff;
+}
+
+header input[type="text"]:focus::placeholder {
+  color: #fff;
+}
+
+/* Vendor prefixes for better compatibility */
+header input[type="text"]:focus::-webkit-input-placeholder {
+  color: #fff;
+}
+header input[type="text"]:focus:-moz-placeholder {
+  color: #fff;
+}
+header input[type="text"]:focus::-moz-placeholder {
+  color: #fff;
+}
+header input[type="text"]:focus:-ms-input-placeholder {
+  color: #fff;
+}

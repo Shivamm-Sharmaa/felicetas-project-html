@@ -1,0 +1,158 @@
+.feli-qualities {
+    text-align: center;
+    background: #EDF5FD;
+    padding: 60px 0;
+}
+
+.brand_title {
+    font-size: 30px;
+    margin-bottom: 30px;
+    background: linear-gradient(to right, #EE7D41 40%, #884725 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.business-slider {
+  background: #0d1a36;
+  padding: 90px 0px;
+  text-align: center;
+  border-top: 1px solid #2F3545;
+}
+
+.title{
+  color: #F27417;
+  font-size: 30px;
+  margin-bottom:40px;
+}
+
+.card {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;  
+  text-align: left;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card .overlay {
+    position: absolute;
+    bottom: 40px;
+    left: 30px;
+    right: 30px;
+}
+
+.card h4 {
+  font-size:30px;
+  margin-bottom: 10px;
+  color:#151D34;
+}
+
+.business-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 30px;
+}
+
+.card .business-list li{width: 45%;}
+
+.card .business-list li a{
+ text-decoration:none;
+  font-size: 16px;
+  margin: 5px 0;
+  padding-right:15px;
+  color:#151D34;
+  font-weight: bold;
+  position:relative;
+  display:block;
+  
+}
+
+.card .business-list li a:hover{ color: #F27417;}
+
+.card ul li a::after {
+    content: '\f105';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 600;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #F27417;
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.owl-carousel .owl-dots {
+  text-align: center;
+  margin-top:45px;
+}
+
+.owl-carousel .owl-dots .owl-dot {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.owl-carousel .owl-dots .owl-dot span {
+  width: 14px;
+  height: 14px;
+  display: block;
+  background: #F27417; 
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.owl-carousel .owl-dots .owl-dot.active span {
+  background: #825229;
+}
+
+body .owl-carousel .owl-nav {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;  
+}
+
+body .owl-carousel .owl-nav button.owl-prev,
+body .owl-carousel .owl-nav button.owl-next {
+  background: #FF8721;
+  border: none;
+  border-radius: 50%;
+  width:48px;
+  height:48px;
+  color: #fff;
+  font-size: 20px;
+  box-shadow: -2px -2px 2px 0px rgba(0, 0, 0, 0.50) inset;
+  transition: 0.3s ease;
+  z-index: 10;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+body .owl-carousel .owl-nav button.owl-prev {
+  left: -80px;
+}
+
+body .owl-carousel .owl-nav button.owl-next {
+  right: -80px;
+}
+
+body .owl-carousel .owl-nav button.owl-prev:hover,
+body .owl-carousel .owl-nav button.owl-next:hover {
+    background: rgba(242, 116, 23, 0.2);
+    color: #FF8721;
+}
+
+body .owl-carousel .owl-nav button span {
+  display: block;
+  font-size: 38px;
+  line-height: 40px;
+  text-align: center;
+  font-weight: 100;
+  height: 50px;
+}
