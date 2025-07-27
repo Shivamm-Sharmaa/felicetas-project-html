@@ -1,0 +1,138 @@
+/* HISTORY SPLIT SECTION */
+.history-split {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 85vh;
+  overflow: hidden;
+}
+
+.split-image {
+  width: 50%;
+  height: 100%;
+}
+
+.split-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.split-text {
+  width: 50%;
+  background-color: white;
+  padding: 60px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.split-text h2 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #ee6718;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.split-text h1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #111;
+  margin-bottom: 20px;
+}
+
+.split-text p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #444;
+  margin-bottom: 15px;
+}
+/* SLIDER ENHANCEMENT */
+.slider-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.slider-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.nav-dots {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  z-index: 2;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dot.active {
+  background-color: #ee6718;
+}
+
+.arrows {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  z-index: 2;
+  pointer-events: none; /* allows only inner arrows to be clickable */
+}
+
+.arrow {
+  font-size: 24px;
+  color: white;
+  background-color: rgb(241, 122, 10);
+  padding: 6px 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.3s ease;
+}
+
+.arrow:hover {
+  background-color: rgba(238, 234, 231, 0.863);
+}
+
+@media screen and (max-width: 768px) {
+  .history-split {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .split-image, .split-text {
+    width: 100%;
+    height: auto;
+  }
+
+  .split-text {
+    padding: 30px 20px;
+  }
+
+  .split-text h1 {
+    font-size: 24px;
+  }
+
+  .split-text p {
+    font-size: 15px;
+  }
+}

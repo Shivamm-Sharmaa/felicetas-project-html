@@ -1,0 +1,47 @@
+/* TRUSTED COMPANIES SECTION */
+.trusted-companies {
+  background-color: #eef4fa;
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.trusted-companies h2 {
+  font-size: 20px;
+  color: #c0551e;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.logo-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.logo-row img {
+  height: 40px;
+  object-fit: contain;
+  opacity: 0.8;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.logo-row img:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 768px) {
+  .trusted-companies h2 {
+    font-size: 18px;
+  }
+
+  .logo-row {
+    gap: 20px;
+  }
+
+  .logo-row img {
+    height: 35px;
+  }
+}

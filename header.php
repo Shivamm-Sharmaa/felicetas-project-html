@@ -18,6 +18,13 @@
     <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/services/cards.css">
+    <link rel="stylesheet" href="css/about-us/about-us.css">
+    <link rel="stylesheet" href="css/about-us/herosec.css">
+    <link rel="stylesheet" href="css/about-us/history-split.css">
+    <link rel="stylesheet" href="css/about-us/stat-card.css">
+    <link rel="stylesheet" href="css/about-us/style.css">
+    <link rel="stylesheet" href="css/about-us/trust.css">
+    <link rel="stylesheet" href="css/about-us/vission-mission.css">
     <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nobile:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">

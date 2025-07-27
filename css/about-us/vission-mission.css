@@ -1,0 +1,93 @@
+/* VISION & MISSION SECTION */
+.vision-mission-section {
+  background-color: #f1f6fb;
+  padding: 60px 40px;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+.vision-mission-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.vision, .mission {
+  flex: 1;
+  min-width: 300px;
+}
+
+.vision h2, .mission h2 {
+  color: #f97316; /* orange */
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.vision p, .mission p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #444;
+}
+
+.vision-mission-section hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 40px 0;
+}
+
+/* CORE VALUES */
+.core-values {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  text-align: center;
+}
+
+.value-box {
+  flex: 1;
+  min-width: 180px;
+  max-width: 200px;
+}
+
+.value-box img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.value-box h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.value-box p {
+  font-size: 14px;
+  color: #555;
+}
+
+@media screen and (max-width: 768px) {
+  .vision-mission-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .vision h2, .mission h2 {
+    font-size: 22px;
+  }
+
+  .vision p, .mission p {
+    font-size: 15px;
+  }
+
+  .core-values {
+    justify-content: center;
+  }
+
+  .value-box {
+    max-width: 100%;
+  }
+}
