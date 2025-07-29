@@ -1,0 +1,103 @@
+.sectors {
+  width: 100%;
+  height: 90vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.sectors-image {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.sectors-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(5px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.sectors-text {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.sectors-text h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  color: orange;
+}
+
+.sectors-text h1 {
+  font-size: 48px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.reviews {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.stars {
+  color: gold;
+  margin-right: 5px;
+}
+
+.breadcrumb {
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+  z-index: 2;
+  font-size: 16px;
+  color: white;
+}
+
+.breadcrumb .arrow {
+  margin: 0px;
+  /* cursor: alias; */
+}
+
+.breadcrumb .orange-text {
+  color: orange;
+}
+
+.breadcrumb .current {
+  color: white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-text h1 {
+    font-size: 32px;
+  }
+  .hero-text h3 {
+    font-size: 18px;
+  }
+  .hero {
+    height: 70vh;
+  }
+}
